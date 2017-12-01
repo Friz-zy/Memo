@@ -22,7 +22,7 @@ fi
 ```
 
 *Tip: you can use filter for searching showing only necessary subset of commands*  
-![Image with example of filtering](./Memo.png)
+<img src="./Memo.png" alt="Image with example of filtering" width="500">
 
 **If you want also store your aliases, you can fork this repo and use git for keeping track of all your changes ^_^**
 
