@@ -3,6 +3,7 @@ import sys
 import six
 import subprocess
 from PySide import QtCore, QtGui
+from six.moves import shlex_quote
 
 from memo_ui import Ui_MainWindow
 
@@ -196,7 +197,7 @@ class Memo(QtGui.QMainWindow):
                     if file[-4:] == '.txt':
                         file = file[0:-4]
                     with open(file + '.sh', 'w') as f:
-                        f.writelines([ "alias %s='%s'%s" % (i[0], i[1].replace("'", r"\'"), os.linesep) for i in self.aliases])
+                        f.writelines([ "alias %s=%s%s" % (i[0], shlex_quote(i[1]), os.linesep) for i in self.aliases])
                     with open(file + '.cmd', 'w') as f:
                         f.writelines([ "doskey %s=%s%s" % (i[0], i[1], os.linesep) for i in self.aliases])
                 except: raise;self.showCritical("Error","Can't save %s" % file)

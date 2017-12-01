@@ -9,6 +9,18 @@ cd Memo
 ./bin/Memo
 ```
 
+When you'll save your changes into the file, Memo also create two addition failes for unix and windows.  
+You can use it for setup your aliases in the shell. For examle in unix you can do this one:
+```
+source ~/Memo/aliases.sh
+```
+or even add it into your `~/.bashrc`:
+```
+if [ -f ~/Memo/aliases.sh ]; then
+    . ~/Memo/aliases.sh
+fi
+```
+
 If you want execute it from source form or build binary for Windows, you should install also dependencies:
 
 ubuntu and other deb based
