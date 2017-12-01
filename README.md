@@ -21,8 +21,8 @@ if [ -f ~/Memo/aliases.sh ]; then
 fi
 ```
 
-*Tip: you can use filter for searching showing only necessary subset of commands*
-![Image with example of filtering](https://github.com/Friz-zy/Memo/Memo.png)
+*Tip: you can use filter for searching showing only necessary subset of commands*  
+![Image with example of filtering](./Memo.png)
 
 **If you want also store your aliases, you can fork this repo and use git for keeping track of all your changes ^_^**
 
