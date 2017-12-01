@@ -1,0 +1,11 @@
+__author__ = "Filipp Frizzy"
+__copyright__ = ""
+__credits__ = ["Filipp Frizzy"]
+__license__ = ["MIT"]
+__version__ = "1.0"
+__maintainer__ = "Filipp Frizzy"
+__email__ = "filipp.s.frizzy@gmail.com"
+__status__ = "Development"
+__description__ = "A simple program for manage shell aliases and commands"
+__keywords__ = "qt shell aliases unix windows"
+__url__ = "github.com/Friz-zy/Memo"
