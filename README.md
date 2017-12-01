@@ -9,7 +9,7 @@ cd Memo
 ./bin/Memo
 ```
 
-When you'll save your changes into the file, Memo also create two addition failes for unix and windows.  
+When you'll save your changes into the file, Memo also create two addition files for unix and windows.  
 You can use it for setup your aliases in the shell. For examle in unix you can do this one:
 ```
 source ~/Memo/aliases.sh
@@ -20,6 +20,9 @@ if [ -f ~/Memo/aliases.sh ]; then
     . ~/Memo/aliases.sh
 fi
 ```
+
+*Tip: you can use filter for searching showing only necessary subset of commands*
+![Image with example of filtering](https://github.com/Friz-zy/Memo/Memo.png)
 
 **If you want also store your aliases, you can fork this repo and use git for keeping track of all your changes ^_^**
 
