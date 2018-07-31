@@ -55,4 +55,4 @@ pyinstaller --onedir --windowed main.py
 
 Created by Filipp Kucheryavy for his friend Vladimir Kataev :)
 
-Challenge 'with asterisk': you can create similar program with spreadshit program like [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) or [LibreOffice Calc](https://en.wikipedia.org/wiki/LibreOffice) and Basic macros language =D
+Challenge 'with asterisk': you can create similar program with spreadsheet program like [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) or [LibreOffice Calc](https://en.wikipedia.org/wiki/LibreOffice) and Basic macros language =D
